@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="../css/log.css">
+    <link rel="icon" href="../midia/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Seção do cabeçalho -->
+    <section id="header">
+        <div class="navbar-container">
+            <a href="../index.html"><img src="../midia/back.png" alt="Voltar" class="icon"></a>
+            <a href="#" class="logo-container"><img src="../midia/logo2.png" class="logo" alt="Logo Bem me quer"></a>
+        </div>
+    </section>
+
+    <!-- Seção do carrinho de compras -->
+    <div class="form-container cart-container">
+        <h2>Seu Carrinho</h2>
+        <div class="cart-item">
+            <img src="../midia/product1.png" alt="Produto 1">
+            <div class="item-details">
+                <h3>Produto 1</h3>
+                <p>Quantidade: <input type="number" value="1" min="1"></p>
+                <p>Preço: R$ 50,00</p>
+            </div>
+            <button class="remove-button">Remover</button>
+        </div>
+        <div class="cart-item">
+            <img src="../midia/product2.png" alt="Produto 2">
+            <div class="item-details">
+                <h3>Produto 2</h3>
+                <p>Quantidade: <input type="number" value="1" min="1"></p>
+                <p>Preço: R$ 60,00</p>
+            </div>
+            <button class="remove-button">Remover</button>
+        </div>
+        <div class="total">
+            <h3>Total: R$ 110,00</h3>
+            <button class="promo-link">Finalizar Compra</button>
+        </div>
+    </div>
+</body>
+</html>
