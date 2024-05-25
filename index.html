@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem me quer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="midia/favicon.ico" type="image/x-icon">
+   
 </head>
 <body>
-        <!-- Seção do cabeçalho -->
+    <!-- Seção do cabeçalho -->
     <section id="header">
         <div class="navbar-container">
             <ul id="navbar">
@@ -24,25 +25,21 @@
             <form class="search-form" action="#" method="get">
                 <input type="text" class="search-input" placeholder="Pesquisar...">
             </form>
-        </div> 
-        <div id="cart-container">
-            <img src="midia/carrinho.png" alt="Ícone do Carrinho" class="cart-icon">
-            <span id="cart-counter">0</span>
+            <div class="icon-container">
+                <a href="htmls/login.html"><img src="midia/user.png" alt="Login"></a>
+                <a href="htmls/c"><img src="midia/cart.png" alt="Carrinho de Compras"></a>
+            </div>
         </div>
     </section>
     <!-- Seção do cabeçalho -->
-    <!-- Nova seção com o conteúdo fornecido -->
+
     <!-- Seção promocional com o conteúdo fornecido -->
     <section class="promo-section background-image">
         <div class="promo-content">
             <h1 class="promo-title">Melu</h1>
             <div class="promo-copy">
                 <div class="t-h4">
-                    <p>
-                        <b>
-                            Cuide da Sua pele
-                        </b>
-                    </p>
+                    <p><b>Cuide da Sua pele</b></p>
                 </div>
                 <div class="promo-link-group">
                     <a aria-label="Get Started Link" href="htmls/" class="promo-link">Ver mais</a>
@@ -52,48 +49,40 @@
         </div>
     </section>
 
-
-
-     <!-- Seção de produtos -->
-     <section class="products-section">
+    <!-- Seção de produtos -->
+    <section class="products-section">
         <div class="product-card">
             <img src="midia/product1.png" alt="Produto 1">
-            <h3>Produto 1</h3>
-            <p>R$ <span class="product-price">50,00</span></p>
-            <button class="buy-button" onclick="addToCart(50)">Comprar</button>
+            <h3>Gloss Labial</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
         </div>
-        
         <div class="product-card">
             <img src="midia/product2.png" alt="Produto 2">
             <h3>Produto 2</h3>
-            <p>R$ <span class="product-price">60,00</span></p>
-            <button class="buy-button" onclick="addToCart(60)">Comprar</button>
+            <p>R$ 60,00</p>
+            <button class="buy-button">Comprar</button>
         </div>
-        
         <div class="product-card">
             <img src="midia/product3.png" alt="Produto 3">
             <h3>Produto 3</h3>
-            <p>R$ <span class="product-price">70,00</span></p>
-            <button class="buy-button" onclick="addToCart(70)">Comprar</button>
+            <p>R$ 70,00</p>
+            <button class="buy-button">Comprar</button>
         </div>
-        
         <div class="product-card">
             <img src="midia/product4.png" alt="Produto 4">
             <h3>Produto 4</h3>
-            <p>R$ <span class="product-price">80,00</span></p>
-            <button class="buy-button" onclick="addToCart(80)">Comprar</button>
+            <p>R$ 80,00</p>
+            <button class="buy-button">Comprar</button>
         </div>
-        
         <div class="product-card">
             <img src="midia/product5.png" alt="Produto 5">
             <h3>Produto 5</h3>
-            <p>R$ <span class="product-price">90,00</span></p>
-            <button class="buy-button" onclick="addToCart(90)">Comprar</button>
+            <p>R$ 90,00</p>
+            <button class="buy-button">Comprar</button>
         </div>
-    
     </section>
 
     <script src="script.js"></script>
 </body>
 </html>
->>>>>>> a9b0354 (update visuals)
