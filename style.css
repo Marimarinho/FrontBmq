@@ -1,3 +1,8 @@
+/* Fonte padrão */
+body {
+    font-family: 'Cambria', serif;
+}
+
 /* CABEÇALHO */
 #header {
     display: flex;
@@ -101,8 +106,6 @@
     word-wrap: break-word;
 }
 
-
-
 .promo-title {
     font-size: 3em; 
     margin-bottom: 10px;
@@ -131,7 +134,7 @@
     color: #fff;
     background-color: #999AD2; 
     transition: background-color 0.3s ease;
-    font-size: 16px; /
+    font-size: 16px;
 }
 
 .promo-link:hover {
