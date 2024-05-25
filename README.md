@@ -6,7 +6,5 @@ Bem-vindo ao Bem Me Quer, um e-commerce de maquiagem criado para oferecer uma ex
 ## Sobre o Projeto
 O Bem Me Quer é um projeto de e-commerce de maquiagem desenvolvido como parte da cadeira de Projeto Integrador IV no curso de Sistemas para Internet. 
 O objetivo principal do projeto é aplicar os conceitos aprendidos no curso para criar uma versão da loja da nossa cliente que seja online, funcional e atraente para os clientes.
-<<<<<<< HEAD
+
 Link do Vercel: (https://front-bmq-six.vercel.app/)
-=======
->>>>>>> a9b0354 (update visuals)
