@@ -14,23 +14,6 @@
     height: 70px; 
     width: auto; 
 }
-/* Estilos para o ícone do carrinho */
-.cart-icon {
-    width: 90px;
-    height: auto;
-    margin-right: 5px; /* Espaçamento entre o ícone e o contador */
-}
-
-#cart-counter {
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px; /* Tamanho da fonte */
-    background-color: #f2e6ff; /* Cor de fundo do contador */
-    color: #7561e6; /* Cor do texto do contador */
-    padding: 12px 20px; /* Espaçamento interno */
-    border-radius: 25px; /* Arredondamento dos cantos */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
 
 /* Navbar */
 #navbar {
@@ -73,8 +56,30 @@
     border-color: #999AD2;
 }
 
-/* NOVA SEÇÃO */
+/* Contêiner dos ícones */
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
 
+.icon-container a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Navbar container */
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+/* NOVA SEÇÃO */
 .promo-section {
     display: flex;
     flex-direction: column;
@@ -118,8 +123,6 @@
     word-wrap: break-word;
 }
 
-
-
 .promo-title {
     font-size: 3em; 
     margin-bottom: 10px;
@@ -148,7 +151,7 @@
     color: #fff;
     background-color: #999AD2; 
     transition: background-color 0.3s ease;
-    font-size: 16px; /
+    font-size: 16px; 
 }
 
 .promo-link:hover {
@@ -165,7 +168,6 @@
 }
 
 .product-card {
-    font-family: 'Poppins', sans-serif;
     width: 200px; 
     text-align: center;
     border: 1px solid #ccc; 
@@ -188,22 +190,16 @@
     margin-bottom: 15px; 
 }
 
-/* Estilo padrão do botão de compra */
 .buy-button {
-    padding: 10px 20px; /* Espaçamento interno */
-    border: 2px solid #FF6347; /* Borda sólida com cor */
-    border-radius: 5px; /* Borda arredondada */
-    background-color: transparent; /* Fundo transparente */
-    color: #FF6347; /* Cor do texto */
-    font-family: 'Arial', sans-serif; /* Fonte */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor do mouse */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #999AD2;
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Efeito de hover para o botão de compra */
 .buy-button:hover {
-    background-color: #FF6347; /* Altera a cor de fundo ao passar o mouse */
-    color: #FFFFFF; /* Altera a cor do texto */
+    background-color: #B8B1DB;
 }
-
